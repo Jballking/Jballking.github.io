@@ -47,10 +47,11 @@ h2 {
     margin-right: 20px;
 }
 #student{
-    width: 100%;
+    float: right;
 }
 a{
     font-size: 20px;
     color: red;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
 }
