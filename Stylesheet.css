@@ -49,3 +49,8 @@ h2 {
 #student{
     width: 100%;
 }
+a{
+    font-size: 20px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
