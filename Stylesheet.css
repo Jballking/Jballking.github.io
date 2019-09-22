@@ -7,33 +7,35 @@ body {
     line-height: 150%;
   }
 Header {
-    background-color: #333333;
+    background-color: #4aaaa5;
     padding-left: 10px;
+    width: 960px;
+    margin: 0 auto;
 }
 h1 {
     color: #eee;
-    background-color: #333333;
+    background-color: #4aaaa5;
     font-size: 28px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     }
 h2 {
     font-size: 24px;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 475px;
 }
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .container {
-    width: 1024px;
+    width: 960px;
     margin: 0 auto;
 } 
-#main-bio {
-    float: left;
-}
-#contact-info {
-    float:left;
-}
-#bio-image {
-    float: left;
-}
 #bio-image {
     width: 200px;
     length: 200px;
@@ -41,17 +43,29 @@ h2 {
 #main-bio {
     width: 70%;
 }
-#contact-info {
-    width: 30%;
-}#bio-image {
-    margin-right: 20px;
+input {
+    width: 100%;
+    font-size: 30px;
+    padding: 15px;
+    margin: 50px;
 }
-#student{
-    float: right;
+form {
+    font-size: 25px;
+    width: 960px;
+    padding-left: 475px;
 }
-a{
-    font-size: 20px;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+div {
+    padding: 5px;
+    margin: 40px, 100px, 100px, 100px;
+    width: 1000px;
+    float: relative;
+}
+.nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+        float: right;
+        background-color: #ffffff;
+        color: #777777;
 }
