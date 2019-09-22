@@ -67,5 +67,11 @@ div {
         width: 60px;
         float: right;
         background-color: #ffffff;
-        color: #777777;
+        color: red;
+        font-size: 25px;
+}
+footer {
+    background-color: #4aaaa5;
+    width: 125px;
+    text-align: center;
 }
